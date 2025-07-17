@@ -9,7 +9,19 @@ body {
     padding-top: 20px;
     padding-right: 100px;
     padding-left: 100px;
-    
+}
+
+.conteudo {
+    border: 1px solid ;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* espaçamento entre elementos */
+    justify-content: space-between;
+}
+
+.caixa-texto {
+    width: 600px;
 }
 
 .starbucks {
