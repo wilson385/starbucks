@@ -4,3 +4,8 @@
     /* a largura continua a mesma, e o conteúdo se ajusta para couber na caixa */
     box-sizing: border-box;
 }
+
+.starbucks {
+    /* largura */
+    width: 340px;
+}
