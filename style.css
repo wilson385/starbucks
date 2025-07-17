@@ -1,0 +1,9 @@
+/* h1 > selector */
+h1 {
+    color: red;
+}
+
+p {
+    color: rgb(76, 212, 13);
+    background: aqua;
+}
