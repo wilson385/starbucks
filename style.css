@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
     margin: 0;
     padding: 0;
     /* a largura continua a mesma, e o conteúdo se ajusta para couber na caixa */
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -30,6 +32,7 @@ h1 {
     font-weight: bold;
     /* tamanho da fonte */
     font-size: 60px;
+    text-align: center;
 }
 /* tag inline usada para marcar ou estilizar um pedaço específico de texto ou conteúdo dentro de outra tag. */
 span {
@@ -70,4 +73,19 @@ p {
 .starbucks {
     /* largura */
     width: 340px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.botao-menu {
+    width: 60px;
+    cursor: pointer;
+}
+
+.botao-menu:hover {
+    /* elementos se mexe para cima - negativo ele sobe e + ele desce */
+    transform: translateY(-30px);
 }
