@@ -1,9 +1,6 @@
-/* h1 > selector */
-h1 {
-    color: red;
-}
-
-p {
-    color: rgb(76, 212, 13);
-    background: aqua;
+* {
+    margin: 0;
+    padding: 0;
+    /* a largura continua a mesma, e o conteúdo se ajusta para couber na caixa */
+    box-sizing: border-box;
 }
