@@ -53,9 +53,18 @@ p {
     margin-top: 20px;
     /* muda o ponteiro do mouse, ao interagir com elemento button vai aparecer uma mão */
     cursor: pointer;
+    transition: 0.5s;
  }
  button:hover {
     background: #018950;
+ }
+
+ .caixa-imagem {
+    width: 600px;
+    display: flex;
+    /* empurrando o elemento para o final, para o lado direito */
+    justify-content: flex-end;
+    margin-top: 250px;
  }
 
 .starbucks {
