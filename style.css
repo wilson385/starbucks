@@ -12,7 +12,7 @@ body {
 }
 
 .conteudo {
-    border: 1px solid ;
+    /* border: 1px solid ; */
     width: 100%;
     display: flex;
     align-items: center;
@@ -23,6 +23,40 @@ body {
 .caixa-texto {
     width: 600px;
 }
+
+h1 {
+    color: #333;
+    /* grossura da fonte */
+    font-weight: bold;
+    /* tamanho da fonte */
+    font-size: 60px;
+}
+/* tag inline usada para marcar ou estilizar um pedaço específico de texto ou conteúdo dentro de outra tag. */
+span {
+    color: #017143;
+    font-size: 70px;
+    font-weight: 900px;
+}
+
+p {
+    font-size: 16px;
+}
+ button {
+    /* cor de fundo */
+    background: #017143; 
+    color: #ffffffff;
+    /* arredondamento das bordas */
+    border-radius: 40px;
+    /* eliminando borda */
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    /* muda o ponteiro do mouse, ao interagir com elemento button vai aparecer uma mão */
+    cursor: pointer;
+ }
+ button:hover {
+    background: #018950;
+ }
 
 .starbucks {
     /* largura */
