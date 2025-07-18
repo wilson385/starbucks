@@ -119,7 +119,7 @@ p {
 
 
 }
-
+/* celulares e tablets */
 @media (max-width: 768px) {
   body {
     padding: 20px;
