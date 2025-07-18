@@ -6,5 +6,5 @@ function trocaCor(cores) {
     // altera a cor de fundo do circulo
     // circulo.style.background = "red"
     circulo.style.background = cores
-    
+
 }
