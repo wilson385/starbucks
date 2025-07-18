@@ -146,7 +146,7 @@ p {
   .caixa-imagem {
     width: 100%;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 50px;
   }
 
   .starbucks {
@@ -155,7 +155,7 @@ p {
 
   .circulo {
     clip-path: circle(300px at center bottom);
-    margin-top: 4rem;
+    margin-top: 10rem;
   }
 
   .menu {
