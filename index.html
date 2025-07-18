@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="circulo"></div>
     <img src="img/logo.png" alt="imagem-logo-starbucks" />
     <div class="conteudo">
       <div class="caixa-texto">
@@ -30,9 +31,11 @@
       </div>
     </div>
     <div class="menu">
-    <img class="botao-menu" src="img/thumb1.png" alt="imagem-copinho-starbucks" />
-    <img class="botao-menu" src="img/thumb2.png" alt="imagem-copinho-starbucks" />
-    <img class="botao-menu" src="img/thumb3.png" alt="imagem-copinho-starbucks" />
+      <!-- enviando informação para js -->
+    <img onclick="trocaCor('#017143')" class="botao-menu" src="img/thumb1.png" alt="imagem-copinho-starbucks" />
+    <img onclick="trocaCor('#eb7495')" class="botao-menu" src="img/thumb2.png" alt="imagem-copinho-starbucks" />
+    <img onclick="trocaCor('#d752b1')" class="botao-menu" src="img/thumb3.png" alt="imagem-copinho-starbucks" />
     </div>
   </body>
+  <script src="script.js"></script>
 </html>
