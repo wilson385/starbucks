@@ -120,13 +120,13 @@ p {
 
 }
 
-@media (max-width: 430px) {
+@media (max-width: 768px) {
     .conteudo {
         flex-direction: column;
     }
 
     .circulo {
-        clip-path: circle(250px at center bottom);
+        clip-path: circle(300px at center bottom);
         height: 100%;
         
     }
