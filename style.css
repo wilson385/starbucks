@@ -127,7 +127,7 @@ p {
 
     .circulo {
         clip-path: circle(250px at center bottom);
-        
+        height: 100%;
         
     }
 }
