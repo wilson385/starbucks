@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(59, 170, 44);
+}
+
+header {
+    display: flex;
+    background: rgba(71, 156, 37, 0.164);
+    border-radius: 5px;
+}
+
+.logo {
+    width: 80px;
+    padding: 6px;
+    margin-left: 6px;
+}
+
+h1 {
+    margin: 0 auto 0;
+    display: flex;
+    align-items: center;
+    color: #471f05;
+    font-family: "Bitcount Prop Single", system-ui;
+}
+
+.conteudo {
+    width: 100%;
+    max-width: 620px;
+    margin: 78px auto 0;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    
+    height: auto;
+    font-family: "Archivo", sans-serif;
+
+}
+
+.subtitulo {
+    font-size: 26px;
+    font-weight: bolder;
+    color: #2e1a0c;
+    text-align: center;
+    padding: 8px;
+}
+
+
+p {
+    font-size: 18px;
+    text-align: center;
+    padding: 8px;
+    /* espaçamento entre linha do paragrafo */
+    line-height: 1.4;
+    color: #1f1107;
+    font-weight:  500;
+
+}
+
+.caixa-button {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    cursor: pointer;
+    color: #492735;
+    background-color: #c0b6af;
+    font-weight: bolder;
+    color: rgb(20, 20, 20);
+    transition: 1.0s;
+}
+
+.verdeClaro:hover {
+    background: #228B22;
+    
+}
+
+.verdeEscuro:hover {
+    background-color: #008000;
+}
+
+.caixa-imagem {
+    text-align: center;
+    margin-top: 5rem;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.copo-grande {
+    width: 230px;
+    padding-left: 20px;
+    
+}
+
+.menu {
+    text-align: center;
+    margin-top: 57px;
+    position: relative;
+}
+
+.botao-menu {
+    width: 60px;
+    cursor: pointer;
+}
+
+.botao-menu:hover {
+    /* elementos se mexe para cima - negativo ele sobe e + ele desce */
+    transform: translateY(-30px);
+}
+
+
+.circulo {
+  width: 100%;
+  height: 100%;
+  background: #165516;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  clip-path: circle(260px at center bottom);
+  z-index: -1;
+}
+
+
+
+
