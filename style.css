@@ -124,6 +124,12 @@ p {
     .conteudo {
         flex-direction: column;
     }
+
+    .circulo {
+        clip-path: circle(600px at botton 800px);
+        
+        
+    }
 }
   
 
