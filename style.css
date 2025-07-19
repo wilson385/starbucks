@@ -132,7 +132,12 @@ button {
   clip-path: circle(260px at center bottom);
   z-index: -1;
 }
-
+/* dispositivos móveis */
+@media (max-width:489px) {
+    header h1 {
+        text-align: center;
+    }
+}
 
 
 
